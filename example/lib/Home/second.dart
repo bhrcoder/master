@@ -1,4 +1,4 @@
-import 'package:custom_theme/Global/global.dart';
+import '../Global/global.dart';
 import 'package:flutter/material.dart';
 
 class SecondPage extends StatefulWidget {

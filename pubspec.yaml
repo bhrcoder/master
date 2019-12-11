@@ -1,8 +1,8 @@
 name: dynamic_custom_theme
 description: A new Flutter package.
-version: 1.0.0
+version: 1.0.0+1
 author: Bher <bhcoder2016@gmail.com>
-homepage: 
+homepage: https://github.com/bhrcoder/master
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

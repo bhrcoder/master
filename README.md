@@ -4,7 +4,7 @@ A new Flutter package.
 
 ## Getting Started
 
-To use this plugin, add `dynamic_custom_theme` as a  as a dependency in your pubspec.yaml file. You can add multiple custom theme by adding in DynamicTheme class.
+To use this plugin, add `dynamic_custom_theme` as a dependency in your pubspec.yaml file. You can add multiple custom theme by adding in DynamicTheme class.
 
 
 ### First
@@ -56,7 +56,7 @@ after creating class, add this to your global
 /// This will your new custom dynamic theme
 /// *** [TO IMPLEMENT THIS YOU CAN CALL custom.streamColors, to listen to your Colors]
 /// *** [You can also set your Dynamic Theme]
-/// You can alse check in main.dart for how to use this.
+/// You can also check in main.dart for how to use this.
 CustomTheme<DynamicTheme> custom = CustomTheme();
 
 /// This [snapshot] will receive your all 
@@ -69,6 +69,8 @@ AsyncSnapshot<DynamicTheme> snapshot;
 ### Third
 to your main.dart you need to add this.
 ```dart
+/// Also you need to import your global to your main.
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -109,12 +111,20 @@ class MyApp extends StatelessWidget {
 }
 ```
 
+### Fourth
+to set your dynamic theme you can call this function 
+```dart
+/// lightMode and darkMode is located to your global, you can also add Color,size etc.
+await custom.setThemes(lightMode);
+/// or
+await custom.setThemes(darkMode);
+```
 
 ### Finally
-You can now access you dynamic themes to somewhere to your pages. by calling this.
+You can now access you dynamic themes to somewhere to your pages. by calling [snapshot.data.value].
 ```dart
 ThemeData(
-    brightness: snap.data.brightness
+    brightness: snapshot.data.brightness
 ),
 ```
 ```dart
@@ -123,3 +133,7 @@ TextStyle(
     color: snapshot.data.text
 )
 ```
+
+
+### NOTE
+[YOU NEED TO IMPORT YOUR GLOBAL IF YOU WANT TO USE YOUR DYNAMIC CUSTOM THEME.]
