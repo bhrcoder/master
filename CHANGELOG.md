@@ -1,3 +1,7 @@
+## [1.0.0+2] - TODO: Add description.
+
+* TODO: Update details.
+
 ## [1.0.0+1] - TODO: Add description.
 
 * TODO: Custom Dynamic Themes add description of how to use.
