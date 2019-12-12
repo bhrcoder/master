@@ -1,14 +1,13 @@
 # dynamic_custom_theme
 
-A new Flutter plugin for Custom Dynamic Themes. This Supports both iOS and Android.
+A new Flutter plugin for Custom Dynamic Themes. This package will help your application to build a Dynamic Custom Theme, You can add multiple custom Theme,Colors,Font,Background, etc. This Supports both iOS and Android. 
 
 ## Getting Started
 
 To use this plugin, add `dynamic_custom_theme` as a dependency in your pubspec.yaml file. You can add multiple custom theme by adding in DynamicTheme class.
 
 
-### First
-Create class first. this will be located to your global page.
+### Create class first. this will be located to your global page.
 ```dart
 /// Import this
 import 'package:dynamic_custom_theme/dynamic_custom_theme.dart';
@@ -50,8 +49,7 @@ DynamicTheme darkMode = DynamicTheme(
 );
 ```
 
-### Second
-after creating class, add this to your global
+### After creating class, add this to your global
 ```dart
 /// This will your new custom dynamic theme
 /// *** [TO IMPLEMENT THIS YOU CAN CALL custom.streamColors, to listen to your Colors]
@@ -66,8 +64,7 @@ AsyncSnapshot<DynamicTheme> snapshot;
 ```
 
 
-### Third
-to your main.dart you need to add this.
+### To your main.dart you need to add this.
 ```dart
 /// Also you need to import your global to your main.
 
@@ -111,8 +108,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-### Fourth
-to set your dynamic theme you can call this function 
+### To set your dynamic theme you can call this function 
 ```dart
 /// lightMode and darkMode is located to your global, you can also add Color,size etc.
 await custom.setThemes(lightMode);
@@ -120,8 +116,7 @@ await custom.setThemes(lightMode);
 await custom.setThemes(darkMode);
 ```
 
-### Finally
-You can now access you dynamic themes to somewhere to your pages. by calling [snapshot.data.value].
+### You can now access you dynamic themes to somewhere to your pages. by calling [snapshot.data.value].
 ```dart
 ThemeData(
     brightness: snapshot.data.brightness
