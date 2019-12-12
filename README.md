@@ -1,6 +1,6 @@
 # dynamic_custom_theme
 
-A new Flutter plugin for Custom Dynamic Themes. Supports iOS and Android.
+A new Flutter plugin for Custom Dynamic Themes. This Supports both iOS and Android.
 
 ## Getting Started
 
