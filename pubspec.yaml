@@ -1,6 +1,6 @@
 name: dynamic_custom_theme
-description: A new Flutter plugin for Custom Dynamic Themes. This package will help your application to build a Dynamic Custom Theme, You can add multiple custom Theme,Colors,Font,Background, etc. This Supports both iOS and Android.
-version: 1.0.0+5
+description: A new Flutter plugin for Custom Dynamic Themes. This Supports both iOS and Android.
+version: 1.0.0+6
 author: Bher <bhcoder2016@gmail.com>
 homepage: https://github.com/bhrcoder/master
 

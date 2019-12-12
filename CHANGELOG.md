@@ -1,5 +1,9 @@
 ## [1.0.0+5] - TODO: Add description.
 
+* TODO: Update pubspec again.
+
+## [1.0.0+5] - TODO: Add description.
+
 * TODO: Update pubspec.
 
 ## [1.0.0+4] - TODO: Add description.
