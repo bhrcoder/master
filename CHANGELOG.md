@@ -1,27 +1,31 @@
-## [1.0.0+5] - TODO: Add description.
+## [1.0.0+7]
 
-* TODO: Update pubspec again.
+* Update description.
 
-## [1.0.0+5] - TODO: Add description.
+## [1.0.0+6]
 
-* TODO: Update pubspec.
+* Update pubspec again.
 
-## [1.0.0+4] - TODO: Add description.
+## [1.0.0+5]
 
-* TODO: Update details of example.
+* Update pubspec.
 
-## [1.0.0+3] - TODO: Add description.
+## [1.0.0+4]
 
-* TODO: Update description.
+* Update details of example.
 
-## [1.0.0+2] - TODO: Add description.
+## [1.0.0+3]
 
-* TODO: Update details.
+* Update description.
 
-## [1.0.0+1] - TODO: Add description.
+## [1.0.0+2] 
 
-* TODO: Custom Dynamic Themes add description of how to use.
+* Update details.
 
-## [1.0.0] - TODO: Add release date.
+## [1.0.0+1]
 
-* TODO: Custom Dynamic Themes.
+* Custom Dynamic Themes add description of how to use.
+
+## [1.0.0]
+
+* Custom Dynamic Themes.
